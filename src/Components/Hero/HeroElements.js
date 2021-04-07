@@ -2,6 +2,8 @@ import styled from 'styled-components'
 import ImgBg from '../../images/burger-2.jpg'
 export const HeroContainer = styled.div `
 background: linear-gradient( to right, rgba(0,0,0,0.7), rgba(0,0,0,0.1)), url(${ImgBg});
+
+
 height: 100vh;
 background-position: center;
 background-size: cover;
@@ -39,6 +41,7 @@ margin-bottom: 1rem;
 box-shadow:  5px 5px  #ff7b00;
 letter-spacing: 3px;
 text-transform: uppercase;
+
 `
 
 export const HeroP = styled.p `

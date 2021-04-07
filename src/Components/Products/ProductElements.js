@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const ProductsContainer = styled.div`
+export const ProductsContainer = styled.div `
 width: 98.75vw;
 min-height: 100vh;
 padding: 5rem calc((100vw - 1300px)/2);
@@ -9,14 +9,14 @@ color: #fff;
 `
 
 
-export const ProductsHeading = styled.h1`
+export const ProductsHeading = styled.h1 `
 font-size: clamp(2rem, 2.5vw, 3rem);
 text-align: center;
 margin-bottom: 5rem;
 `
 
 
-export const ProductsWrapper = styled.div`
+export const ProductsWrapper = styled.div `
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
@@ -24,14 +24,14 @@ margin: 0 auto;
 `
 
 
-export const ProductCard = styled.div`
+export const ProductCard = styled.div `
 margin: 0 2rem;
 line-height: 2;
 width: 300px;
 `
 
 
-export const ProductImg = styled.img`
+export const ProductImg = styled.img `
 height: 300px;
 min-width: 300px;
 max-width: 100%;
@@ -39,7 +39,7 @@ box-shadow: 8px 8px  #ff7b00;
 `
 
 
-export const ProductInfo = styled.div`
+export const ProductInfo = styled.div `
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -49,24 +49,24 @@ text-align: center;
 `
 
 
-export const ProductTitle = styled.h2`
+export const ProductTitle = styled.h2 `
 font-weight: 400;
 font-size: 1.5rem;
 `
 
 
-export const ProductDesc = styled.p`
+export const ProductDesc = styled.p `
 margin-bottom: 1rem;
 `
 
 
-export const ProductPrice = styled.p`
+export const ProductPrice = styled.p `
 margin-bottom: 1rem;
 font-size: 2rem;
 `
 
 
-export const ProductButton = styled.button`
+export const ProductButton = styled.button `
 font-size: 1rem;
 padding: 1rem 4rem;
 background:  #ff0000;

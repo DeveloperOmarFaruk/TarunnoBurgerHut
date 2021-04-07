@@ -1,8 +1,8 @@
 import styled from 'styled-components'
-import {Link} from 'react-router-dom'
-import {FaTimes} from 'react-icons/fa'
+import { Link } from 'react-router-dom'
+import { FaTimes } from 'react-icons/fa'
 
-export const SidebarContainer = styled.aside`
+export const SidebarContainer = styled.aside `
 position: fixed;
 z-index: 999;
 width: 350px;
@@ -20,11 +20,12 @@ right: ${({isOpen}) => (isOpen ? '0' : '-1000px')};
 }
 `
 
-export const CloseIcon = styled(FaTimes)`
+export const CloseIcon = styled(FaTimes)
+`
 color: #000;
 `
 
-export const Icon = styled.div`
+export const Icon = styled.div `
 position: absolute;
 top: 1.2rem;
 right: 1.5rem;
@@ -35,7 +36,7 @@ cursor: pointer;
 outline: none;
 `
 
-export const SidebarMenu = styled.div`
+export const SidebarMenu = styled.div `
 display: grid;
 grid-template-columns: 1fr;
 grid-template-rows: repeat(3, 80px);
@@ -44,9 +45,11 @@ text-align: center;
 @media screen and (max-width: 480px){
     grid-template-rows: repeat(3, 60px);
 }
+
 `
 
-export const SidebarLink = styled(Link)`
+export const SidebarLink = styled(Link)
+`
 display: flex;
 align-items: center;
 justify-content: center;
@@ -65,12 +68,14 @@ cursor: pointer;
 }
 `
 
-export const  SideBtnWarp = styled.div`
+export const SideBtnWarp = styled.div `
 display: flex;
 justify-content: center;
 `
 
-export const SidebarRoute = styled(Link)`
+
+export const SidebarRoute = styled(Link)
+`
 background: #ff0000;
 white-space: nowrap;
 padding: 16px 64px;
